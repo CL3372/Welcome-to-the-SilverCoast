@@ -36,10 +36,17 @@ body {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
+.golf-photos {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
 /* ===== HEADER ===== */
 header {
   /* 📸 REPLACE with your Baleal sunset hero image */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../images/baleal-sunset.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -195,10 +202,8 @@ main p {
 /* ===== FOOTER ===== */
 footer {
   color: white;
-  background-image: linear-gradient(
-      rgba(39, 32, 68, 0.92),
-      rgba(39, 32, 68, 0.92)
-    ),
+  background-image:
+    linear-gradient(rgba(39, 32, 68, 0.92), rgba(39, 32, 68, 0.92)),
     url("../images/baleal-sunset.jpg");
   background-repeat: no-repeat;
   background-size: cover;
