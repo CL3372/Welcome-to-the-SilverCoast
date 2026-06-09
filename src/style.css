@@ -203,8 +203,8 @@ main p {
 footer {
   color: white;
   background-image:
-    linear-gradient(rgba(39, 32, 68, 0.92), rgba(39, 32, 68, 0.92)),
-    url("../images/baleal-sunset.jpg");
+    linear-gradient(rgba(39, 32, 68, 0.88), rgba(39, 32, 68, 0.88)),
+    url("../images/gallery-2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
